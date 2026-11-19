@@ -1,0 +1,4 @@
+model,family,engine,metric,value,ci_low,ci_high
+spark_logistic,linear,spark,f1_macro,0.6913,0.6736,0.7083
+sklearn_boosting,tree ensemble,sklearn,f1_macro,0.7681,0.7526,0.7827
+majority_class,baseline,other,f1_macro,0.4736,0.4721,0.4752

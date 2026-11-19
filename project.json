@@ -1,0 +1,52 @@
+{
+  "title": "Predicting Term Deposit Subscriptions in Bank Telemarketing Campaigns",
+  "group": [
+    {
+      "name": "Anam Irshad",
+      "reg_id": "538594",
+      "programme": "MSDS",
+      "owns": [
+        "data and cleaning",
+        "spark pipeline"
+      ]
+    },
+    {
+      "name": "",
+      "reg_id": "2026-MSDS-002",
+      "programme": "MS Stats and DS",
+      "owns": [
+        "EDA",
+        "report"
+      ]
+    },
+    {
+      "name": "Member Three (Replace Name)",
+      "reg_id": "2026-MSDS-003",
+      "programme": "MSDS",
+      "owns": [
+        "MLlib model",
+        "evaluation"
+      ]
+    },
+    {
+      "name": "Member Four (Replace Name)",
+      "reg_id": "2026-MSDS-004",
+      "programme": "MS Stats and DS",
+      "owns": [
+        "alternative model",
+        "slides"
+      ]
+    }
+  ],
+  "problem": "classification",
+  "target": "y",
+  "id_column": "row_id",
+  "primary_metric": "f1_macro",
+  "dataset": {
+    "file": "data/bank_marketing.csv",
+    "source": "https://archive.ics.uci.edu/dataset/222/bank+marketing (bank-additional-full.csv, Moro et al., 2014)",
+    "rows": 41188,
+    "features": 20
+  },
+  "entry_point": "run_all.py"
+}
